@@ -9,9 +9,8 @@ const Link = ({ route }) => {
 };
 
 Link.propTypes = {
-    // You can declare that a prop is a specific JS primitive
-    route: PropTypes.object
- 
-}
+  // You can declare that a prop is a specific JS primitive
+  route: PropTypes.object,
+};
 
 export default Link;

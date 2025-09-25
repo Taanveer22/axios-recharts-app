@@ -27,9 +27,8 @@ const Phones = () => {
   }, []);
   return (
     <div>
-      { loading || 
+      {loading || (
         <div>
-          
           <Audio
             height="80"
             width="80"
@@ -52,7 +51,7 @@ const Phones = () => {
           />
           <br /> <br />
         </div>
-      }
+      )}
       <h2 className="text-5xl">phones: {phones.length}</h2>
       <BarChart width={1100} height={550} data={phones}>
         <Bar dataKey="price" fill="#8884d8" />

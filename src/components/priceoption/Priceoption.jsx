@@ -16,8 +16,10 @@ const Priceoption = ({ option }) => {
         {features.map((feature, index) => (
           <Feature key={index} feature={feature}></Feature>
         ))}
-          </div>
-          <button className="mt-8 bg-green-700 w-full py-3 font-bold rounded-lg">buy now</button>
+      </div>
+      <button className="mt-8 bg-green-700 w-full py-3 font-bold rounded-lg">
+        buy now
+      </button>
     </div>
   );
 };
